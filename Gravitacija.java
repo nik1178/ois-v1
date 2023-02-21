@@ -12,4 +12,9 @@ public class Gravitacija {
         double pospesek = (C*M) / ((R+nmv) * (R+nmv));
         return pospesek;
     }
+
+    public static void izpis(double nadVisina, double gravPosp) {
+        System.out.println("nadmorska visina: "+nadVisina + " gravitacijski pospešek: " + gravPosp);
+
+    }
 }
