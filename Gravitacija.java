@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class Gravitacija {
     public static void main(String[] args) {
-        System.out.println("OIS je zakon!");
+        Scanner scan = new Scanner(System.in);
+        double nadVisina = scan.nextDouble();
+        double pospesek = izracun(nadVisina);
+        izpis(nadVisina, pospesek);
     }
 
     public static double izracun(double nmv) {
